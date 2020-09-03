@@ -9,7 +9,7 @@ function writePassword() {
   passwordText.value = password;
 
 }
-function getPassword(){
+function generatePassword(){
   // All YOUR CODE GOES HERE
   var howLong = prompt("How long would you like your password to be?", 
   "(max length 128 characters)");
@@ -20,15 +20,16 @@ function getPassword(){
 
   console.log("test-1");
 
-  var chars = "!@#$%^&*()";
+ 
   var uppers = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var lowers = "abcdefghijklmnopqrstuvwxyz";
-  var numbs = "1234567890";
+  var chars = "!@#$%^&*()";
+  var numbs = "1234567890"; 
   var selected = "";
 
   console.log("test-2")
 
-  return "Working...";
+  // return "Working...";
 
   if(lowerCase === true){
     selected = selected + lowers;
@@ -42,7 +43,14 @@ function getPassword(){
     selected = selected + numbs;
   }
 
-  if(characters === true);
+  if(characters === true) {
+   selected = selected + chars;
+}
+  for( i = 0; i < howLong.length; i++){
+    return Math.floor(Math.random(selected)* howLong);
+
+     // var num = math.floor(math.random() * 10) + 1;
+  }
 }
 
 // Add event listener to generate button
