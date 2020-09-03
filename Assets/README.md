@@ -4,7 +4,7 @@
 
 In this repository I have coded a simple password generator. Its purpose is to create secure passwords without needing to go to an online generator that, more likely than no, stores my metadata. The sale of metadata is concerning, how it could easily compromise the security of my passwords. Thus, a simple offline version is safest. It also helps me improve my javascript skills.
 
-![Image of a sample password will all options checked.](./assets/sample-password.png)
+![Image of a sample password will all options checked.](./sample-password.PNG)
 
 ## Table of Contents
 
