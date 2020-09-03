@@ -15,6 +15,11 @@ function generatePassword(){
   var howLong = prompt("How long would you like your password to be?", 
   "(Pick a number between 8 and 128.)");
 
+if(howLong <8 || howLong >128){
+  alert("Pick a number between 8 and 128!")
+  generatePassword();
+}
+else {
 
   var lowerCase = confirm("Would you like to include lower case letters?");
   var upperCase = confirm("Would you like to include upper case letters? ");
@@ -50,7 +55,8 @@ function generatePassword(){
      // var num = math.floor(math.random() * 10) + 1;
   }
 
-  return finalPass
+    return finalPass
+  }
 }
 
 // Add event listener to generate button
