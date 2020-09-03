@@ -48,6 +48,16 @@ else {
    selected = selected + chars;
   }
 
+  if(
+    lowerCase == false &&
+    upperCase == false &&
+    characters == false &&
+    numbers == false 
+   ) {
+     alert("Please select at least one option.");
+     generatePassword();
+   }
+
   for(var i = 0; i < howLong; i++){
     var randomChar = Math.floor(Math.random()* selected.length);
     finalPass = finalPass + selected[randomChar];
