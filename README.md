@@ -6,7 +6,7 @@ In this repository I have coded a simple password generator. Its purpose is to c
 
 [Follow this link to get your own random password!](https://andrew0502.github.io/andrew_password_generator/)
 
-![Image of a sample password will all options checked.](./sample-password.PNG)
+![Image of a sample password will all options checked.](./Assets/sample-password.PNG)
 
 ## Table of Contents
 
